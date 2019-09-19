@@ -20,3 +20,4 @@ print('Cohens_D is : ', cohens_d)
 
 ~~~
 
+After executing the code above, I was able to compare the average weights of first babies and others and found that first babies were lighter on average by about 0.12 lbs. However, this is an extremely small difference and computing Cohen's d resulted in a value of about -0.088 which suggests that the effect size on weight of being a first born baby or not is trivial. In comparison to the difference in pregnancy length, which has a Cohen's d value of 0.029, the difference in total weight is slightly larger but still small overall. 

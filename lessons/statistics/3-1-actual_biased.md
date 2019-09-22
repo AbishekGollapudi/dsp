@@ -23,6 +23,7 @@ thinkplot.Pmfs([pmf, bias_pmf])
 thinkplot.Show(xlabel='Number of Children', ylabel='PMF')
 
 ~~~
+ 
+![](https://github.com/AbishekGollapudi/dsp/blob/master/lessons/statistics/tplot.png)
 
-Inline-style: 
-![alt text](https://github.com/AbishekGollapudi/dsp/blob/master/lessons/statistics/tplot.png "Plots")
+As expected, families with no children have no chance to be in the biased distribution and this is reflected in the plot above. The mean of the biased distribution is over double the mean of the actual distribution and by comparing the two distributions, its easy to see that families with more children are more likely to appear in this sample.

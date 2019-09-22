@@ -13,8 +13,8 @@ for x, p in pmf.Items():
 
 bias_pmf.Normalize()
     
-print('Actual mean :', pmf.Mean())
-print('Observed mean :', bias_pmf.Mean())
+print('Actual mean :', pmf.Mean())   #1.02
+print('Observed mean :', bias_pmf.Mean())    #2.40
 
 #Plotting the distributions
 
@@ -23,3 +23,6 @@ thinkplot.Pmfs([pmf, bias_pmf])
 thinkplot.Show(xlabel='Number of Children', ylabel='PMF')
 
 ~~~
+
+Inline-style: 
+![alt text](https://github.com/AbishekGollapudi/dsp/blob/master/lessons/statistics/tplot.png "Plots")

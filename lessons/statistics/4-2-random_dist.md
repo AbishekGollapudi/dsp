@@ -6,7 +6,7 @@ arr = np.random.random(1000)
 pmf = thinkstats2.Pmf(arr)
 
 thinkplot.Pmf(pmf, linewidth=0.1)
-  thinkplot.Config(xlabel='Random Value', ylabel='PMF')
+thinkplot.Config(xlabel='Random Value', ylabel='PMF')
 
 rand_cdf = thinkstats2.Cdf(arr)
 thinkplot.Cdf(rand_cdf)

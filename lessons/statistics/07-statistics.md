@@ -93,7 +93,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+> Frequentist approaches usually don't take a prior outcome into account and use probability to measure the frequency of an event happening. When testing a hypothesis, a frequentist approach only cares about whether the hypothesis is true or not. Frequentists argue that using priors introduces a subjective element to data analysis that can lead to errors or misjudgment. </br> </br> A Bayesian approach quantifies uncertainty about an event with probability and takes prior probabilities into account. When testing a hypothesis, a Bayesian would try to identiy the probability that a hypothesis is true instead of only caring about whether its true or false. Bayesians strongly believe that not using prior probabilities is a great weakness of the frequentist approach.
 
 ---
 
